@@ -1,0 +1,72 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Nov  4 07:19:35 2024
+# Process ID: 14044
+# Current directory: C:/Users/raviv/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6696
+# Log file: C:/Users/raviv/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/raviv/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/raviv/OneDrive/Desktop/FinalV/MODS123.xpr/MODS/MODS.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/raviv/OneDrive/Desktop/FinalV/MODS123.xpr/MODS/MODS.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/raviv/OneDrive/Desktop/FinalV/MODS123.xpr/MODS/MODS.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/raviv/OneDrive/Desktop/FinalV/MODS123.xpr/MODS/MODS.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/raviv/OneDrive/Desktop/FinalV/MODS123.xpr/MODS/MODS.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+archive_project C:/Users/raviv/OneDrive/Desktop/WithWetWorking.xpr.zip -temp_dir C:/Users/raviv/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-14044-X16R1 -force -include_local_ip_cache -include_config_settings
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/raviv/OneDrive/Desktop/FinalV/MODS123.xpr/MODS/MODS.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+archive_project C:/Users/raviv/OneDrive/Desktop/LatestFunctioning.xpr.zip -temp_dir C:/Users/raviv/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-14044-X16R1 -force -include_local_ip_cache -include_config_settings
+close [ open C:/Users/raviv/OneDrive/Desktop/FinalV/MODS123.xpr/MODS/MODS.srcs/sources_1/new/my_winning_frame.v w ]
+add_files C:/Users/raviv/OneDrive/Desktop/FinalV/MODS123.xpr/MODS/MODS.srcs/sources_1/new/my_winning_frame.v
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+wait_on_run impl_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/raviv/OneDrive/Desktop/FinalV/MODS123.xpr/MODS/MODS.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/raviv/OneDrive/Desktop/FinalV/MODS123.xpr/MODS/MODS.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+archive_project {C:/Users/raviv/OneDrive/Desktop/S1_16_NG CHEE_ONG ZHENG_VISWANATHAN RAVISANK_YAR XIN_Improvements_Archive.xpr.zip} -temp_dir C:/Users/raviv/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-14044-X16R1 -force -include_local_ip_cache -include_config_settings

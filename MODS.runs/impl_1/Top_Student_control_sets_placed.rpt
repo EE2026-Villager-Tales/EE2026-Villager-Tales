@@ -1,0 +1,159 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Mon Nov  4 08:12:51 2024
+| Host         : X16R1 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Top_Student_control_sets_placed.rpt
+| Design       : Top_Student
+| Device       : xc7a35t
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    88 |
+| Unused register locations in slices containing registers |   214 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            3 |
+|      4 |            5 |
+|      6 |            2 |
+|      8 |            5 |
+|     10 |           14 |
+|     12 |            8 |
+|     14 |            3 |
+|    16+ |           48 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             708 |          191 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |            1776 |          270 |
+| Yes          | No                    | No                     |             488 |           82 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             158 |           30 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------------+---------------------------------------------+-----------------------------------------------+------------------+----------------+
+|               Clock Signal               |                Enable Signal                |                Set/Reset Signal               | Slice Load Count | Bel Load Count |
++------------------------------------------+---------------------------------------------+-----------------------------------------------+------------------+----------------+
+|  fishing/fcm/fsc/oled_data_reg[0]        |                                             |                                               |                1 |              2 |
+|  threeseconds_elapsed_reg_i_2__0_n_0     |                                             |                                               |                1 |              2 |
+|  fishing/fcm/rcm/fc_1kHz/SLOW_CLOCK      |                                             |                                               |                1 |              2 |
+|  fishing/fcm/fsc/spi_word_reg[24]_0[0]   |                                             |                                               |                1 |              4 |
+|  Win/fc_25MHz/SLOW_CLOCK                 |                                             |                                               |                2 |              4 |
+|  Fir_CLK/clk200                          |                                             | an_state[0]                                   |                2 |              4 |
+|  Fir_CLK/clk200                          |                                             | FSM_sequential_an_state[0]_i_1_n_0            |                1 |              4 |
+|  Fir_CLK/clk200                          |                                             |                                               |                2 |              4 |
+| ~clk6p25m_BUFG                           |                                             |                                               |                3 |              6 |
+|  fcm/pdC/SLOW_CLOCK                      |                                             |                                               |                1 |              6 |
+|  fishing/fcm/rcm/output_clock            |                                             |                                               |                1 |              8 |
+|  farm/character/THIRTYHZ_CLK/SLOW_CLOCK  |                                             |                                               |                1 |              8 |
+|  clk6p25m_BUFG                           | Milestonel/pumpkinseed_count_out[3]_i_1_n_0 |                                               |                1 |              8 |
+|  clk6p25m_BUFG                           | OLED/wheatseed_count_out_reg[3][0]          |                                               |                2 |              8 |
+|  onekhzclock                             |                                             |                                               |                3 |              8 |
+|  clk6p25m_BUFG                           | farm/pumpkin_count_out_reg[0][0]            |                                               |                1 |             10 |
+|  Milestonel/First_CLK/clk20              |                                             |                                               |                4 |             10 |
+|  Milestonel/character/fc_25MHz/clk_25MHz |                                             |                                               |                4 |             10 |
+|  Milestonel/character/fc_25MHz/clk_25MHz |                                             | Milestonel/character/oled_data[8]_i_1__0_n_0  |                3 |             10 |
+|  fishing/fcm/fd3/fc_25MHz/clk_25MHz      |                                             |                                               |                3 |             10 |
+|  clk6p25m_BUFG                           | farm/carp_count_out_reg[0][0]               |                                               |                1 |             10 |
+|  clk6p25m_BUFG                           | farm/bluetang_count_out_reg[0][0]           |                                               |                1 |             10 |
+|  clk6p25m_BUFG                           |                                             | OLED2/oled_data2_reg[0]_1                     |                2 |             10 |
+|  fishing/fcm/fsc/fc_250ms/SLOW_CLOCK     |                                             |                                               |                2 |             10 |
+|  fishing/fcm/fsc/oled_data_reg[0]_0[0]   |                                             |                                               |                2 |             10 |
+|  fishing/fcm/fd3/fc_25MHz/clk_25MHz      |                                             | fishing/fcm/fm/oled_data_reg[0]               |                3 |             10 |
+|  clk6p25m_BUFG                           | farm/wheat_count_out_reg[0][0]              |                                               |                2 |             10 |
+|  clk6p25m_BUFG                           | OLED/bait_count_out_reg[4][0]               |                                               |                1 |             10 |
+|  clk6p25m_BUFG                           | farm/koi_count_out_reg[0][0]                |                                               |                2 |             10 |
+|  Milestonel/character/fc_25MHz/clk_25MHz |                                             | Milestonel/character/oled_data[13]_i_1__0_n_0 |                3 |             12 |
+|  clk6p25m_BUFG                           |                                             | OLED2/oled_data2_reg[1]_0                     |                3 |             12 |
+|  farm/character/THIRTYHZ_CLK/SLOW_CLOCK  | farm/character/char_y[5]_i_1_n_0            |                                               |                3 |             12 |
+|  Milestonel/First_CLK/clk20              | Milestonel/y_offset                         |                                               |                2 |             12 |
+|  clk6p25m_BUFG                           | OLED/E[1]                                   | OLED/SS[0]                                    |                4 |             12 |
+|  fishing/fcm/fd3/fc_25MHz/clk_25MHz      |                                             | fishing/fcm/fm/oled_data_reg[5]               |                4 |             12 |
+|  fishing/fcm/fm/THIRTYHZ_CLK/CLK         |                                             |                                               |                3 |             12 |
+|  fishing/fcm/fm/THIRTYHZ_CLK/CLK         | fishing/fcm/fm/char_y[5]_i_1__0_n_0         |                                               |                3 |             12 |
+|  Milestonel/First_CLK/clk20              | Milestonel/facing_left15_out                |                                               |                3 |             14 |
+|  fishing/fcm/fm/THIRTYHZ_CLK/CLK         | fishing/fcm/fm/char_x[6]_i_1__0_n_0         |                                               |                3 |             14 |
+|  Fir_CLK/clk200                          | seg0                                        |                                               |                5 |             14 |
+|  fishing/fcm/fd2/fc_25MHz/clk_25MHz      |                                             | fishing/fcm/ffc/oled_data_reg[2]              |                7 |             16 |
+|  fishing/fcm/fd2/fc_25MHz/clk_25MHz      |                                             | fishing/fcm/ffc/oled_data_reg[0]_2            |                6 |             16 |
+|  fishing/fcm/fd1/fc_25MHz/SLOW_CLOCK     |                                             | fishing/fcm/fd1/oled_data[15]_i_1__5_n_0      |                4 |             16 |
+|  fishing/fcm/fd1/fc_25MHz/SLOW_CLOCK     |                                             |                                               |                4 |             16 |
+|  SLOW_CLOCK                              |                                             |                                               |                6 |             16 |
+|  SLOW_CLOCK                              |                                             | OLED/oled_data_reg[2]_18                      |                8 |             20 |
+|  fishing/fcm/fsc/oled_data_reg[3][0]     |                                             |                                               |                4 |             20 |
+|  clk6p25m_BUFG                           | OLED/E[0]                                   | OLED/SR[0]                                    |                6 |             20 |
+|  clk6p25m_0                              |                                             | farm/character/oled_data_reg[15]              |                9 |             20 |
+|  fishing/fcm/fsc/E[0]                    |                                             |                                               |                4 |             22 |
+|  farm/character/THIRTYHZ_CLK/SLOW_CLOCK  | farm/character/char_x0                      |                                               |                7 |             30 |
+|  clk6p25m_BUFG                           | Milestonel/current_out[15]_i_1_n_0          |                                               |               10 |             32 |
+|  fishing/fcm/ffc/spi_word_reg[24][0]     |                                             |                                               |                7 |             32 |
+| ~clk6p25m_BUFG                           |                                             | OLED2/frame_counter[16]_i_1_n_0               |                5 |             34 |
+|  MAIN_CLK_IBUF_BUFG                      |                                             |                                               |               19 |             38 |
+| ~clk6p25m_BUFG                           | OLED2/delay[0]_i_1_n_0                      |                                               |                5 |             40 |
+| ~clk6p25m_BUFG                           | OLED/delay[0]_i_1__0_n_0                    |                                               |                5 |             40 |
+| ~clk6p25m_BUFG                           |                                             | OLED/frame_counter[16]_i_1__0_n_0             |                8 |             56 |
+|  fcm/pdC/SLOW_CLOCK                      | fishing/fcm/pdC/my_count[31]_i_2_n_0        | fishing/fcm/pdC/my_count[31]_i_1_n_0          |                6 |             62 |
+|  MAIN_CLK_IBUF_BUFG                      |                                             | farm/First_CLK/clear                          |                8 |             64 |
+|  MAIN_CLK_IBUF_BUFG                      |                                             | farm/onekhz_clock/COUNT[0]_i_1__1_n_0         |                8 |             64 |
+|  MAIN_CLK_IBUF_BUFG                      |                                             | Milestonel/First_CLK/clear                    |                8 |             64 |
+|  MAIN_CLK_IBUF_BUFG                      |                                             | Milestonel/character/fc_25MHz/clear           |                8 |             64 |
+|  MAIN_CLK_IBUF_BUFG                      |                                             | fishing/fcm/fd3/fc_25MHz/clear                |                8 |             64 |
+|  MAIN_CLK_IBUF_BUFG                      |                                             | fishing/fcm/fd1/fc_25MHz/clear                |                8 |             64 |
+|  MAIN_CLK_IBUF_BUFG                      |                                             | fishing/fcm/fd2/fc_25MHz/clear                |                8 |             64 |
+|  MAIN_CLK_IBUF_BUFG                      |                                             | fishing/fcm/fm/THIRTYHZ_CLK/clear             |                8 |             64 |
+|  MAIN_CLK_IBUF_BUFG                      |                                             | fishing/fcm/fsc/fc_250ms/clear                |                8 |             64 |
+|  MAIN_CLK_IBUF_BUFG                      |                                             | fishing/fcm/pdC/fc_1kHz/clear                 |                8 |             64 |
+|  MAIN_CLK_IBUF_BUFG                      |                                             | fishing/fcm/rcm/fc_10Hz/COUNT[0]_i_1__8_n_0   |                8 |             64 |
+|  MAIN_CLK_IBUF_BUFG                      |                                             | fishing/fcm/rcm/fc_1kHz/clear                 |                8 |             64 |
+|  MAIN_CLK_IBUF_BUFG                      |                                             | home1/onekhz_clock/COUNT[0]_i_1__3_n_0        |                8 |             64 |
+|  MAIN_CLK_IBUF_BUFG                      |                                             | home1/First_CLK/clear                         |                8 |             64 |
+|  MAIN_CLK_IBUF_BUFG                      |                                             | First_CLK/COUNT[0]_i_1__13_n_0                |                8 |             64 |
+|  MAIN_CLK_IBUF_BUFG                      |                                             | Win/fc_25MHz/clear                            |                8 |             64 |
+|  threeseconds_elapsed_reg_i_2__0_n_0     |                                             | farm/counter_reg[31]_0                        |                8 |             64 |
+|  MAIN_CLK_IBUF_BUFG                      |                                             | Win/fc_500ms/COUNT[0]_i_1__5_n_0              |                8 |             64 |
+| ~clk6p25m_BUFG                           | OLED/FSM_onehot_state[31]_i_1__0_n_0        |                                               |                8 |             64 |
+|  MAIN_CLK_IBUF_BUFG                      |                                             | Fir_CLK/clear__0                              |                8 |             64 |
+| ~clk6p25m_BUFG                           | OLED2/state                                 |                                               |                9 |             64 |
+|  fcm/pdC/SLOW_CLOCK                      | fishing/fcm/pdC/oled_count0                 | fishing/fcm/pdC/oled_count                    |               14 |             64 |
+|  MAIN_CLK_IBUF_BUFG                      |                                             | farm/character/THIRTYHZ_CLK/clear             |                8 |             64 |
+|  onekhzclock                             |                                             | farm/counter[0]_i_1_n_0                       |                8 |             64 |
+|  SLOW_CLOCK                              | home1/day[0]_i_1_n_0                        |                                               |                8 |             64 |
+| ~clk6p25m_BUFG                           |                                             | OLED2/spi_word[39]_i_1_n_0                    |               18 |             90 |
+| ~clk6p25m_BUFG                           |                                             | OLED/spi_word[39]_i_1__0_n_0                  |               16 |             90 |
+|  clk6p25m_BUFG                           |                                             |                                               |               50 |            222 |
+|  clk6p25m_0                              |                                             |                                               |               62 |            226 |
++------------------------------------------+---------------------------------------------+-----------------------------------------------+------------------+----------------+
+
+
