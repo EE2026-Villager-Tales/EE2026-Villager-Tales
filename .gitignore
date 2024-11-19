@@ -1,1 +1,8 @@
 .idea/
+vivado.jou
+vivado.log
+vivado_14044.backup.jou
+vivado_14044.backup.log
+MODS.cache/wt/project.wpc
+MODS.cache/wt/webtalk_pa.xml
+MODS.runs/impl_1/gen_run.xml
