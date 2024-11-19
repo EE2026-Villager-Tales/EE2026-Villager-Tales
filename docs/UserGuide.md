@@ -17,12 +17,17 @@ Team S1_16
 
 The shop module enables purchasing items necessary for farming and fishing. The game's main controls use **pushbuttons** and **switches**, providing seamless movement and interaction. Achieve a balance of **$9000** to win the game, displayed with a victory frame!
 
+![image](https://github.com/user-attachments/assets/8521e41d-906c-44a6-adb5-4f67f3a2c573)
+
 ---
 
 ## **Gameplay Features**
 
 ### **Menu and Navigation**
 - **Initial Menu**: Upon game launch, a start menu appears. Press **BTNC** to begin and transition to the farming view.
+  
+  <img src= "https://github.com/user-attachments/assets/ea280107-01bf-443c-adf6-a83054ab527d" alt="Image" height="100">
+
 - **Navigation**: Use the **BTNU**, **BTND**, **BTNL**, and **BTNR** buttons to move between locations:
     - **North**: House
     - **South**: Shop
@@ -44,6 +49,9 @@ The shop module enables purchasing items necessary for farming and fishing. The 
 
 Each crop grows over **2 days**, and players can manage up to **15 plots** simultaneously. Days progress by sleeping in the house.
 
+<img src= "https://github.com/user-attachments/assets/d837a3ec-4db8-4600-ba40-de375396e69a" alt="Image" height="100">
+
+
 ---
 
 ### **Fishing Module**
@@ -56,6 +64,10 @@ Each crop grows over **2 days**, and players can manage up to **15 plots** simul
     2. Start fishing by pressing **BTNC** at the port.
     3. Catch fish or miss bites, determined by a random number generator.
 - **Animation**: A zoomed-in sequence of throwing bait, casting the rod, and reeling in the fish.
+
+<img src="https://github.com/user-attachments/assets/a30c5007-cfad-4317-a6b7-b6b4b874f779" alt="Image 1" height="100">
+
+<img src="https://github.com/user-attachments/assets/af8857c8-7ddc-4b6b-b8b7-27f78ec7dfec" alt="Image 2" height="100">
 
 ---
 
@@ -82,12 +94,15 @@ Each crop grows over **2 days**, and players can manage up to **15 plots** simul
         - Koi: $1000
         - Wheat: $400
         - Pumpkin: $600
+          
+    <img src="https://github.com/user-attachments/assets/4fff0b35-15d5-4f2a-8fb9-7cc7faed1f38" alt="Image 4" height="100">
 
 #### **Inventory**
 - Always displayed on the **left OLED (JXADC)**.
 - **Balance**: Displayed on the 7-segment display.
 - Items and quantities are dynamically updated based on player actions.
-
+  
+    <img src="https://github.com/user-attachments/assets/760ed4cd-3c11-4757-a039-885b9e97035f" alt="Image 5" height="100"> <img src="https://github.com/user-attachments/assets/1836db96-5658-4702-b2f3-2b2c74ce4524" alt="Image 6" height="100"> <img src="https://github.com/user-attachments/assets/e8917c5d-c0d2-4442-8d8a-264c60b1431a" alt="Image 7" height="100">
 ---
 
 ## **Victory Condition**
@@ -102,8 +117,8 @@ Achieve a balance of **$9000** to display the **Winning Frame** with a blinking 
 
 ## **Contributors**
 - **Ong Zheng Kai**: Menu design, main house design, and character sleep animations.
-- **Viswanathan Ravisankar**: Farming module, character sprite design, and movements.
-- **Yar Xin Ning**: Fishing module, zoomed-in animations, and random fish generation.
-- **Ng Chee Fong**: Shopkeeper design, inventory integration, and buy/sell system.
+- **[Viswanathan Ravisankar](https://github.com/ravi-viswa105)**: Farming module, character sprite design, and movements.
+- **[Yar Xin Ning](https://github.com/yarxinning29)**: Fishing module, zoomed-in animations, and random fish generation.
+- **[Ng Chee Fong](https://github.com/NCF3535)**: Shopkeeper design, inventory integration, and buy/sell system.
 
 ---
