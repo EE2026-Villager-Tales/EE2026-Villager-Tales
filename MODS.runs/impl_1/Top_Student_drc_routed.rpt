@@ -1,0 +1,66 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Mon Nov  4 08:13:14 2024
+| Host         : X16R1 running 64-bit major release  (build 9200)
+| Command      : report_drc -file Top_Student_drc_routed.rpt -pb Top_Student_drc_routed.pb -rpx Top_Student_drc_routed.rpx
+| Design       : Top_Student
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 6
++----------+----------+-------------------+------------+
+| Rule     | Severity | Description       | Violations |
++----------+----------+-------------------+------------+
+| PDRC-153 | Warning  | Gated clock check | 6          |
++----------+----------+-------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PDRC-153#1 Warning
+Gated clock check  
+Net fishing/fcm/ffc/spi_word_reg[24][0] is a gated clock net sourced by a combinational pin fishing/fcm/ffc/oled_data_reg[15]_i_2/O, cell fishing/fcm/ffc/oled_data_reg[15]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#2 Warning
+Gated clock check  
+Net fishing/fcm/fsc/E[0] is a gated clock net sourced by a combinational pin fishing/fcm/fsc/man_frame_reg[1]_i_2/O, cell fishing/fcm/fsc/man_frame_reg[1]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#3 Warning
+Gated clock check  
+Net fishing/fcm/fsc/oled_data_reg[0] is a gated clock net sourced by a combinational pin fishing/fcm/fsc/submerged_reg_i_1/O, cell fishing/fcm/fsc/submerged_reg_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#4 Warning
+Gated clock check  
+Net fishing/fcm/fsc/oled_data_reg[0]_0[0] is a gated clock net sourced by a combinational pin fishing/fcm/fsc/x_fish_reg[3]_i_1/O, cell fishing/fcm/fsc/x_fish_reg[3]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#5 Warning
+Gated clock check  
+Net fishing/fcm/fsc/oled_data_reg[3][0] is a gated clock net sourced by a combinational pin fishing/fcm/fsc/x_bait_reg[6]_i_1/O, cell fishing/fcm/fsc/x_bait_reg[6]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#6 Warning
+Gated clock check  
+Net fishing/fcm/fsc/spi_word_reg[24]_0[0] is a gated clock net sourced by a combinational pin fishing/fcm/fsc/zoom_in_reg[1]_i_2/O, cell fishing/fcm/fsc/zoom_in_reg[1]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+
