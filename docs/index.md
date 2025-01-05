@@ -116,7 +116,7 @@ Achieve a balance of **$9000** to display the **Winning Frame** with a blinking 
 ---
 
 ## **Contributors**
-- **Ong Zheng Kai**: Menu design, main house design, and character sleep animations.
+- **[Ong Zheng Kai](https://github.com/itsZK12)**: Menu design, main house design, and character sleep animations.
 - **[Viswanathan Ravisankar](https://github.com/ravi-viswa105)**: Farming module, character sprite design, and movements.
 - **[Yar Xin Ning](https://github.com/yarxinning29)**: Fishing module, zoomed-in animations, and random fish generation.
 - **[Ng Chee Fong](https://github.com/NCF3535)**: Shopkeeper design, inventory integration, and buy/sell system.
